@@ -8,7 +8,7 @@ import { AuthService } from 'src/app/services/auth.service';
 })
 export class NavbarComponent {
 
-  constructor(private auth: AuthService) { 
+  constructor(private auth: AuthService) {
     auth.handleAuthentication();
   }
 
@@ -16,7 +16,7 @@ export class NavbarComponent {
     this.auth.login();
   }
 
-  salir(){
+  salir() {
     this.auth.logout();
   }
 

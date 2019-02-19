@@ -11,6 +11,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { PreciosComponent } from './components/precios/precios.component';
 import { ProtegidaComponent } from './components/protegida/protegida.component';
+import { AuthGuardService } from './services/auth-guard.service';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ProtegidaComponent } from './components/protegida/protegida.component';
     BrowserModule,
     APP_ROUTING
   ],
-  providers: [AuthService],
+  providers: [AuthService,
+              AuthGuardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
