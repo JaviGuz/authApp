@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Configuración Auth0
+
+Para ver la configuración para del login de auth0 ir a la página https://auth0.com/docs/libraries/lock/v11/configuration
+Para obtener los ajustes de la API de Auth0 crearse cuenta y acceder a https://manage.auth0.com
+
